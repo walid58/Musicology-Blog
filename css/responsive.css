@@ -1,0 +1,732 @@
+@media only screen and (min-width: 1350px) and (max-width: 1440px){
+  #wrapper nav{
+        width: 100%;
+  }
+  .header_section{ 
+    width: 100%;
+    height: 740px;
+  }
+  #dance_tour{
+    width: 100%;
+  }
+  .pricing{
+    width: 100%;
+  }
+  .p_a_shape{
+        background-position: 720px 300px;
+  }
+  #main_section{
+        width: 100%;
+  }
+  #main_section .amazing_dance{
+        width: 100%;
+  }
+  .best_dance{
+        width: 100%;
+  }
+  .our_statis_section{
+        width: 100%;
+    }
+    .herbert_simon_section{
+      width: 100%;
+    }
+    .subscribe_section{
+      width: 100%;
+    }
+    .footer_section{
+      width: 100%;
+    }
+}
+
+/*		Default Layout: 1024px. 
+                Gutters: 24px. 
+                Outer margins: 48px. 
+                Leftover space for scrollbars @1024px: 32px. 
+------------------------------------------------------------------------------- 
+cols    1     2      3      4      5      6      7      8      9      10 
+px      68    160    252    344    436    528    620    712    804    896    */ 
+
+@media only screen and (min-width: 1024px) and (max-width: 1349px){
+      #wrapper nav{
+        width: 100%;
+      }
+      nav ul{
+        margin-left: 25%;
+      }
+      .header_section{ 
+        width: 100%;
+        height: 580px;
+        background-size: cover;
+      }
+      .header_section .title_here {
+        padding-top: 180px;
+      }
+      #dance_tour{
+        width: 100%;
+      }
+      .dance_tour .dance_tour_card .card {
+        width: 301px;
+        height: 485px;
+      }
+      .dance_tour .dance_tour_card .card img {
+        width: 300px;
+        height: 310px;
+      }
+      .dance_tour_card{
+        width: 1005px;
+      }
+      .pricing{
+        width: 100%;
+      }
+      .pricing_card {
+        width: 1000px;
+      }
+      .pricing .pricing_card .card {
+        width: 300px;
+        height: 480px;
+      }
+      .pricing_card .card .btn {
+        width: 290px;
+      }
+      #main_section{
+        width: 100%;
+      }
+      .p_a_shape{
+        background-position: 720px 300px;
+      }
+      #main_section .amazing_dance{
+        width: 100%;
+      }
+      #main_section .amazing_dance {
+        height: 900px;
+      }
+      .amazing_dance img {
+        height: 900px;
+      }
+      .amazing_dance .part2{
+        background-position: 160px 330px;
+        height: 900px;
+      }
+      .best_dance{
+        width: 100%;
+        height: 900px;
+      }
+      .best_dance .part1 {
+        height: 900px;
+      }
+      .best_dance img {
+        height: 900px;
+      }
+      .our_statis_section{
+        width: 100%;
+      }
+      .herbert_simon_section{
+        width: 100%;
+        height: 850px;
+        background-size: cover;
+        background-position: center;
+      }
+      .subscribe_section{
+        width: 100%;
+      }
+      .subscribe_section .subscribe_shape {
+        background-position: -30px -235px;
+        background-size: cover;
+        height: 580px;
+      }
+      .footer_section{
+        width: 100%;
+      }
+}
+
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    #wrapper nav{
+        width: 100%;
+      }
+    nav ul{
+      margin-left: 250px;
+      margin-top: -45px;
+      width: 60%;
+    }
+    nav ul li a{
+      margin-left: 25px;
+      font-size: 21px;
+    }
+    nav .logo_search{
+      margin-right: 30px;
+    }
+    .header_section{
+      margin-top: -50px;
+      height: 424px;
+    }
+    .header_section h1{
+      font-size: 60px;
+    }
+    .header_section .title_here{
+      padding-top: 150px;
+      margin-left: 65px;
+    }
+    .header_section p{
+      font-size: 18px;
+      margin-bottom: 30px;
+      width: 400px;
+    }
+    .header_section a{
+      font-size: 20px;
+      padding: 8px 50px;
+    }
+    #dance_tour{
+      width: 100%;
+    }
+    .dance_tour_card {
+      width: 755px;
+      margin: 0 auto;
+    }
+
+  .dance_tour .dance_tour_card .card p{
+    width: 240px;
+  }
+  .dance_tour .dance_tour_card .card{
+    width: 240px;
+    margin-right: 2%;
+  }
+  .dance_tour .dance_tour_card .card img{
+    width: 240px;
+    height: 270px;
+  }
+  .dance_tour .dance_tour_card .card{
+    height: 450px;
+  }
+  .dance_tour .dance_tour_text h1{
+    font-size: 55px;
+  }
+  .dance_tour .dance_tour_text p{
+    font-size: 21px;
+    width: 670px;
+  }
+  .pricing{
+    width: 100%;
+  }
+  .pricing .pricing_text p{
+    width: 60%;
+    font-size: 20px;
+  }
+  .pricing_card{
+    width: 750px;
+  }
+  .pricing .pricing_card .card{
+    width: 240px;
+    margin-right: 15px;
+  }
+  .pricing_card .card .btn{
+    width: 225px;
+    height: 60px;
+  }
+  .pricing_card .card h1{
+    margin-top: 30px;
+  }
+  .pricing_card .card p{
+    margin-top: 15px;
+  }
+  .pricing_card .card.right{
+    margin-right: 0;
+  }
+  #main_section .amazing_dance{
+    width: 100%;
+  }
+  #main_section .amazing_dance{
+    height: 800px;
+  }
+  .amazing_dance img{
+    height: 800px;
+  }
+  .amazing_dance .part2{
+    height: 800px;
+  }
+  .amazing_dance .part2 h1{
+    margin-top: 220px;
+  }
+  .best_dance{
+    width: 100%;
+    height: 810px;
+  }
+  .best_dance .part1{
+    background-position:5px 300px;
+    height: 810px;
+  }
+  .best_dance img{
+    height: 810px;
+  }
+  .best_dance .part1 h1{
+    margin-top: 200px;
+  }
+  .our_statis_section{
+    width: 100%;
+  }
+  .our_statis_section h1{
+    font-size: 50px;
+    padding-top: 150px;
+  }
+  .our_statis_section p{
+    font-size: 20px;
+  }
+  .our_statis_section .first_element td{
+    font-size: 45px;
+  }
+  .our_statis_section td{
+    padding: 0 60px 0 60px;
+  }
+  .our_statis_section .second_element td{
+    font-size: 27px;
+  }
+  .our_statis_section{
+    height: 900px;
+  }
+  .herbert_simon_section{
+    background-size: 100% 700px;
+    background-repeat: no-repeat;
+    height: 700px;
+  }
+  .herbert_simon_section p{
+    font-size: 30px;
+    padding-top: 220px;
+  }
+  .subscribe_section{
+    width: 100%;
+    height: 570px;
+  }
+  .subscribe_section .subscribe_shape{
+    background-size: 100% 800px;
+    background-position: 0px -200px;
+  }
+  .subscribe_section h1{
+    font-size: 60px;
+    padding-top: 100px;
+  }
+  .subscribe_section .subs input[type="text"]{
+    width: 420px;
+  }
+  .footer_section{
+    width: 100%;
+
+  }
+  .footer_section .part1 p{
+    font-size: 18px;
+  }
+  .footer_section .part1{
+    width: 49%;
+  }
+   .footer_section .part2{
+    width: 51%;
+   }
+   .footer_section .part2 .list_item ul li{
+    font-size: 15px;
+   }
+}
+
+
+/*		Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    nav ul{
+      display: none;
+    }
+    #wrapper nav{
+      width: 100%;
+    }
+    nav .logo_search{
+      margin-top: -40px;
+    }
+    .header_section{
+      margin-top: -35px;
+      height: 265px;
+    }
+    .header_section h1{
+      font-size: 50px;
+      margin-bottom: 12px;
+    }
+    .header_section .title_here{
+      padding-top: 100px;
+      margin-left: 60px;
+    }
+    .header_section p{
+      font-size: 10px;
+      margin-bottom: 8px;
+    }
+    .header_section a{
+      padding: 5px 25px;
+      font-size: 10px;
+    }
+    #dance_tour{
+      width: 100%;
+      height: 1500px;
+    }
+    .dance_tour_card{
+      width: 285px;
+    }
+    .dance_tour .dance_tour_text h1{
+      font-size: 45px;
+    }
+    .dance_tour .dance_tour_text p{
+      font-size: 15px;
+      width: 480px;
+    }
+    .dance_tour .dance_tour_card .card{
+      width: 285px;
+      height: 380px;
+      margin-bottom: 15px;
+    }
+    .dance_tour .dance_tour_card .card img{
+      width: 285px;
+    }
+    .dance_tour .dance_tour_card .card p{
+      font-size: 15px;
+      width: 290px;
+    }
+    .pricing{
+      width: 100%;
+      height: 1900px;
+    }
+    .pricing .pricing_text h1{
+      font-size: 50px;
+      padding-bottom: 25px;
+    }
+    .pricing .pricing_text p{
+      font-size: 15px;
+    }
+    .pricing_card{
+      width: 320px;
+    }
+    .pricing .pricing_card .card{
+      width: 320px;
+      margin-bottom: 15px;
+    }
+    .pricing_card .card .btn{
+      width: 300px;
+    }
+    #main_section .amazing_dance{
+      width: 100%;
+      height: 450px;
+    }
+    .amazing_dance img{
+      height: 450px;
+    }
+    .amazing_dance .part2{
+      height: 450px;
+    }
+    .amazing_dance .part2 h1{
+      margin-top: 100px;
+    }
+    .amazing_dance .part2 p{
+      font-size: 10px;
+      margin-top: 30px;
+    }
+    .amazing_dance .part2 .btn{
+      width: 220px;
+      height: 55px;
+      margin-top: 55px;
+    }
+    .best_dance{
+      width: 100%;
+      height: 450px;
+    }
+    .best_dance .part1{
+      height: 450px;
+    }
+    .best_dance .part1 h1{
+      margin-top: 100px;
+    }
+    .best_dance .part1 p{
+      font-size: 10px;
+    }
+    .best_dance .part1 .btn{
+      width: 220px;
+      height: 60px;
+      margin-top: 50px;
+    }
+    .best_dance img{
+      height: 450px;
+    }
+    .best_dance .part1{
+      background-position: 0px 100px;
+    }
+    .our_statis_section{
+      width: 100%;
+      height: 750px;
+    }
+    .our_statis_section h1{
+      font-size: 50px;
+      padding-top: 150px;
+    }
+    .our_statis_section p{
+      font-size: 17px;
+      padding-bottom: 75px;
+    }
+    .our_statis_section td{
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+    .our_statis_section .first_element td{
+      font-size: 25px;
+    }
+    .our_statis_section .second_element td{
+      font-size: 25px;
+    }
+    .herbert_simon_section{
+      background-size: 100% 600px;
+    background-repeat: no-repeat;
+    height: 600px;
+    }
+    .herbert_simon_section p{
+      font-size: 25px;
+      padding-top: 180px;
+    }
+    .subscribe_section{
+      width: 100%;
+      height: 510px;
+    }
+    .subscribe_section .subscribe_shape{
+      background-size: 100% 700px;
+      background-position: 0px -180px;
+    }
+    .subscribe_section h1{
+      font-size: 55px;
+    }
+    .subscribe_section p{
+      font-size: 15px;
+      padding-bottom: 35px;
+    }
+    .subscribe_section .subs input[type="text"]{
+      width: 280px;
+      height: 50px;
+    }
+    .subscribe_section .subs input[type="submit"]{
+      width: 150px;
+      height: 50px;
+    }
+    .footer_section{
+      width: 100%;
+      height: 950px;
+    }
+    .footer_section .part1, .footer_section .part2{
+      width: 100%;
+    }
+    .footer_section .part2{
+      padding-top: 80px;
+    }
+}
+
+/*		Mobile Layout: 320px.
+            Gutters: 24px.
+            Outer margins: 34px.
+            Inherits styles from: Default Layout.
+---------------------------------------------
+cols    1     2      3
+px      68    160    252    */
+
+@media only screen and (min-width: 410px) and (max-width: 479px) {
+  nav ul{
+    display: none;
+  }
+  #wrapper nav{
+    width: 100%;
+  }
+  nav .logo_search{
+    margin-top: -40px;
+  }
+  .header_section{
+    margin-top: -35px;
+    height: 225px;
+  }
+  .header_section h1{
+    font-size: 50px;
+    margin-bottom: 12px;
+  }
+  .header_section .title_here{
+    padding-top: 100px;
+    margin-left: 60px;
+  }
+  .header_section p{
+    font-size: 10px;
+    margin-bottom: 8px;
+    display: none;
+  }
+  .header_section a{
+    padding: 5px 25px;
+    font-size: 10px;
+  }
+  #dance_tour{
+    width: 100%;
+    height: 1500px;
+  }
+  .dance_tour_card{
+    width: 285px;
+  }
+  .dance_tour .dance_tour_text h1{
+    font-size: 45px;
+  }
+  .dance_tour .dance_tour_text p{
+    font-size: 15px;
+    width: 410px;
+  }
+  .dance_tour .dance_tour_card .card{
+    width: 285px;
+    height: 380px;
+    margin-bottom: 15px;
+  }
+  .dance_tour .dance_tour_card .card img{
+    width: 285px;
+  }
+  .dance_tour .dance_tour_card .card p{
+    font-size: 15px;
+    width: 290px;
+  }
+  .pricing{
+    width: 100%;
+    height: 1950px;
+  }
+  .pricing .pricing_text h1{
+    font-size: 50px;
+    padding-bottom: 25px;
+  }
+  .pricing .pricing_text p{
+    font-size: 15px;
+  }
+  .pricing_card{
+    width: 320px;
+  }
+  .pricing .pricing_card .card{
+    width: 320px;
+    margin-bottom: 15px;
+  }
+  .pricing_card .card .btn{
+    width: 300px;
+  }
+  #main_section .amazing_dance{
+    width: 100%;
+    height: 450px;
+  }
+  .amazing_dance img{
+    height: 450px;
+  }
+  .amazing_dance .part2{
+    height: 450px;
+  }
+  .amazing_dance .part2 h1{
+    margin-top: 100px;
+  }
+  .amazing_dance .part2 p{
+    font-size: 10px;
+    margin-top: 30px;
+  }
+  .amazing_dance .part2 .btn{
+    width: 190px;
+    height: 55px;
+    margin-top: 55px;
+  }
+  .best_dance{
+    width: 100%;
+    height: 450px;
+  }
+  .best_dance .part1{
+    height: 450px;
+  }
+  .best_dance .part1 h1{
+    margin-top: 100px;
+  }
+  .best_dance .part1 p{
+    font-size: 10px;
+  }
+  .best_dance .part1 .btn{
+    width: 190px;
+    height: 55px;
+    margin-top: 50px;
+  }
+  .best_dance img{
+    height: 450px;
+  }
+  .best_dance .part1{
+    background-position: 0px 100px;
+  }
+  .our_statis_section{
+    width: 100%;
+    height: 750px;
+  }
+  .our_statis_section h1{
+    font-size: 50px;
+    padding-top: 150px;
+  }
+  .our_statis_section p{
+    font-size: 17px;
+    padding-bottom: 75px;
+  }
+  .our_statis_section td{
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .our_statis_section .first_element td{
+    font-size: 25px;
+  }
+  .our_statis_section .second_element td{
+    font-size: 25px;
+  }
+  .herbert_simon_section{
+    background-size: 100% 600px;
+  background-repeat: no-repeat;
+  height: 600px;
+  }
+  .herbert_simon_section p{
+    font-size: 25px;
+    padding-top: 180px;
+  }
+  .subscribe_section{
+    width: 100%;
+    height: 510px;
+  }
+  .subscribe_section .subscribe_shape{
+    background-size: 100% 700px;
+    background-position: 0px -180px;
+  }
+  .subscribe_section h1{
+    font-size: 55px;
+  }
+  .subscribe_section p{
+    font-size: 15px;
+    padding-bottom: 35px;
+  }
+  .subscribe_section .subs input[type="text"]{
+    width: 250px;
+    height: 45px;
+  }
+  .subscribe_section .subs input[type="submit"]{
+    width: 125px;
+    height: 45px;
+  }
+  .footer_section{
+    width: 100%;
+    height: 950px;
+  }
+  .footer_section .part1, .footer_section .part2{
+    width: 100%;
+  }
+  .footer_section .part2{
+    padding-top: 80px;
+  }
+
+}
+
+
+/*	Retina media query.
+    Overrides styles for devices with a 
+    device-pixel-ratio of 2+, such as iPhone 4.
+-----------------------------------------------    */
+
+@media 
+    only screen and (-webkit-min-device-pixel-ratio: 2),
+    only screen and (min-device-pixel-ratio: 2) {
+    
+    
+    
+}

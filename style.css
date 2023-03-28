@@ -1,0 +1,534 @@
+/* Nav Start */
+#wrapper nav{
+    width: 1440px;
+    height: 100px;
+    background-color: #303030;
+}
+nav .logo img{
+    margin-top: 15px;
+    margin-left: 80px;
+}
+nav ul{
+    list-style-type: none;
+    margin-left: 385px;
+    margin-top: -50px;
+}
+nav ul li{
+    float: left;
+}
+nav ul li a:hover{
+    color:#faa8e1b7;
+}
+nav ul li a{
+    text-decoration: none;
+    font-family: Oswald;
+    color: #ffffff;
+    margin-left: 50px;
+    font-size: 25px;
+}
+nav .logo_search{
+    float: right;
+    margin-right: 55px;
+    margin-top: -10px;
+    cursor: pointer;
+}
+/* Nav End */
+/* Header Section Start */
+.header_section{  
+    background:url("images/Place-Your-Image-here.jpg") no-repeat;
+    margin-top: -100px;
+    background-size: 100%;
+    position: relative;
+    z-index: 100;
+    height: 745px;
+}
+.header_section .title_here{
+    margin-left: 80px;
+    padding-top: 320px;
+}
+.header_section h1{
+    font-family: Oswald;
+    font-size: 110px;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+.header_section p{
+    font-family: Montserrat;
+    font-size: 25px;
+    color: #ffffff;
+    width: 60%;
+    margin-bottom: 40px;
+}
+.header_section a{
+    font-family: Oswald;
+    font-size: 27px;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.header_section a{
+    background: url("images/button_shape.png");
+    padding: 11px 70px;
+    border-radius: 5px;
+}
+/* Header Section End */
+/* Dance Tour Start */
+#dance_tour{
+    width: 1440px;
+    height: 963px;
+    background: url("images/background_shape.png")100% 100%;
+    position: relative;
+    z-index: 1;
+}
+.dance_tour_shape{
+    background: url("images/dance_tour_shape.png")no-repeat;
+    width: 100%;
+    height: 963px;
+    background-position: -100px  -280px;
+}
+.dance_tour .dance_tour_text h1{
+    font-size: 62px;
+    font-family: Oswald;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 18px;
+}
+.dance_tour .dance_tour_text p{
+    font-size: 24px;
+    font-family: Montserrat;
+    color: white;
+    padding-top: 10px;
+    width: 750px;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 80px;
+}
+.dance_tour_card{
+    width: 1220px;
+    margin: 0 auto;
+}
+.dance_tour .dance_tour_card .card{
+    width: 372px;
+    height: 495px;
+    float: left;
+    margin-right: 50px;
+    background: url("images/dance_tour_background.png");
+}
+.dance_tour .dance_tour_card .card.right{
+    margin-right: 0;
+}
+.dance_tour .dance_tour_card .card img{
+    width: 372px;
+    height: 324px;
+}
+.dance_tour .dance_tour_card .card h2{
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    font-family: Oswald;
+    padding-top: 35px;
+}
+.dance_tour .dance_tour_card .card p{
+    color: white;
+    font-family: Montserrat;
+    text-align: center;
+    width: 315px;
+    margin: 0 auto;
+    font-size: 18px;
+}
+/* Dance Tour End */
+/* Pricing Start */
+.pricing{
+    background: url("images/pricing_background.png");
+    width: 1440px;
+    height: 974px;
+    z-index: 1;
+    position: relative;
+}
+.pricing .pricing_text h1{
+    font-family: Oswald;
+    text-transform: uppercase;
+    font-size: 60px;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 108px;
+    padding-bottom: 60px;
+}
+.pricing .pricing_text p{
+    font-family: Montserrat;
+    color: #ffffff;
+    font-size: 22px;
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 85px;
+}
+.pricing_shape{
+    background: url("images/pricing_shape.png") no-repeat;
+    width: 100%;
+    height: 963px;
+    background-position: -100px  -280px;
+}
+.pricing_card{
+    width: 1220px;
+    margin: 0 auto;
+}
+.pricing .pricing_card .card{
+    background: url("images/Pricing_card_background.png");
+    width: 372px;
+    height: 493px;
+}
+.pricing_card .card{
+    float: left;
+    margin: 0 auto;
+    margin-right: 49px;
+}
+.pricing_card .right{
+    margin-right: 0;
+}
+.pricing_card .card .logo{
+    background: url("images/Pricing_card_logo.png");
+    width: 112px;
+    height: 132px;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+.pricing_card .card h1{
+    font-family: Oswald;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    margin-top: 50px;
+}
+.pricing_card .card p{
+    font-family: Montserrat;
+    width: 70%;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 18px;
+    margin-top: 30px;
+}
+.pricing_card .card .btn{
+    background: url("images/Pricing_card_button.png")no-repeat;
+    width: 322px;
+    height: 65px;
+    margin: auto;
+}
+.pricing_card .card .btn h2{
+    font-family: Oswald;
+    font-size: 30px;
+    margin-top: 5px;
+    color: #ffffff;
+}
+.pricing .pricing_shape1{
+    background: url("images/Amazing-Dance-Shape-1.png") no-repeat;
+    width: 100%;
+    height: 963px;
+    background-position: -100px  -280px;
+}
+/* Pricing End */
+.p_a_shape{
+    background: url("images/p_a_shape.png") no-repeat;
+    background-position: 640px  300px;
+    /* position: absolute; */
+    z-index: 100;
+    width: 100%;
+    height: 1500px;
+
+}
+
+/* Amazing Dance Start */
+#main_section .amazing_dance{
+    background: url("images/Amazing-Dance-Background.png");
+    width: 1440px;
+    height: 975px;
+    /* position: relative;
+    z-index: 2; */
+}
+.amazing_dance .part1,.amazing_dance .part2{
+    width: 50%;
+    float: left;   
+}
+.amazing_dance img{
+    width: 100%;
+    height: 975px;
+
+}
+.amazing_dance .part2 h1{
+    font-family: Oswald;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    margin: auto;
+    margin-top: 320px;
+}
+.amazing_dance .part2 p{
+    font-family: Montserrat;
+    color: white;
+    font-size: 18px;
+    width: 60%;
+    text-align: center;
+    margin: auto;
+    margin-top: 55px;
+}
+.amazing_dance .part2 .btn{
+    background: url("images/Amazing-Dance-button.png")no-repeat;
+    width: 322px;
+    height: 65px;
+    margin: auto;
+    display: block;
+    margin-top: 68px;
+}
+.amazing_dance .part2 .btn h3{
+    text-transform: uppercase;
+    color: white;
+    font-family: Oswald;
+    margin-top: 7px;
+}
+.amazing_dance .part2{
+    background: url("images/Amazing-Dance-Shape-2.png") no-repeat;
+    background-position: 110px 450px;
+    height: 975px;
+}
+/* Amazing Dance End */
+/* Best Dance Start */
+.best_dance{
+    background: url("images/best-dance-background.png");
+    width: 1440px;
+    height: 984px;
+    z-index: 3;
+    position: relative;
+}
+.best_dance .part1,.best_dance .part2{
+    width: 50%;
+    float: left;
+}
+.best_dance img{
+    width: 100%;
+    height: 984px;
+}
+.best_dance .part1 h1{
+    font-family: Oswald;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    margin: auto;
+    margin-top: 320px;
+}
+.best_dance .part1 p{
+    font-family: Montserrat;
+    color: white;
+    font-size: 18px;
+    width: 60%;
+    text-align: center;
+    margin: auto;
+    margin-top: 55px;
+}
+.best_dance .part1 .btn{
+    background: url("images/Amazing-Dance-button.png")no-repeat;
+    width: 322px;
+    height: 65px;
+    margin: auto;
+    display: block;
+    margin-top: 68px;
+}
+.best_dance .part1 .btn h3{
+    text-transform: uppercase;
+    color: white;
+    font-family: Oswald;
+    margin-top: 7px;
+}
+.best_dance .part1{
+    background: url("images/Best-Dance-Shape.png") no-repeat;
+    background-position: 10px 540px;
+    height: 984px;
+}
+/* Best Dance End */
+/* Our Statis Start */
+.our_statis_section{
+    background: url("images/Our-Statistics.png");
+    width: 1440px;
+    height: 974px;
+}
+.our_statis_section h1{
+    font-family: Oswald;
+    font-size: 60px;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 200px;
+}
+.our_statis_section p{
+    font-family: Montserrat;
+    font-size: 25px;
+    color: #ffffff;
+    text-align: center;
+    margin: auto;
+    width: 55%;
+    padding-top: 60px;
+    padding-bottom: 180px;
+}
+.our_statis_section .center{
+    margin-left: auto;
+    margin-right: auto;
+}
+.our_statis_section td{
+    color: #ffffff;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.our_statis_section .first_element td{
+    font-size: 55px;
+    font-family: Oswald;
+    text-align: center;
+}
+.our_statis_section .second_element td{
+    font-size: 30px;
+    font-family: Montserrat;
+    text-align: center;
+}
+/* Our Statis End */
+/* Herbert Simon Start */
+.herbert_simon_section{
+    background: url("images/H_S_Background.jpg");
+    background-position: center;
+    width: 100%;
+    height: 974px;
+}
+.herbert_simon_section p{
+    font-family: Nunito-Regular;
+    font-size: 38px;
+    width: 60%;
+    color: #ffffff;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 335px;
+    padding-bottom: 75px;
+}
+.herbert_simon_section h1{
+    font-family: Oswald;
+    font-size: 47px;
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+}
+/* Herbert Simon End */
+/* Subscribe Start */
+.subscribe_section{
+    background: url("images/subscribe.png");
+    width: 1440px;
+    height: 597px;
+    z-index: 1;
+}
+.subscribe_section .subscribe_shape{
+    background: url("images/subscribe_shape.png")no-repeat;
+    /* width: 100%; */
+    /* height: 569px; */
+    background-position: -30px -300px;
+    height: 597px;
+}
+.subscribe_section h1{
+    font-family: Oswald;
+    font-size: 65px;
+    color: #ffffff;
+    padding-top: 130px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.subscribe_section p{
+    font-family: Montserrat;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    width: 45%;
+    margin: 0 auto;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+.subscribe_section .subs form{
+    text-align: center;
+}
+.subscribe_section .subs input[type="text"]{
+    background: url("images/subscribe_input_text.png");
+    width: 500px;
+    height: 60px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    padding: 0 10px;
+    font-family: Montserrat;
+}
+.subscribe_section .subs input[type="submit"]{
+    background: url("images/subscribe_input_submit.png");
+    position: relative;
+    width: 200px;
+    height: 60px;
+    left: -5px;
+    top: 3px;
+    border: none;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: white;
+    font-family: Oswald;
+}
+/* Subscribe End */
+/* Footer Section Start */
+.footer_section{
+    background: url("images/footer_background.png");
+    width: 1440px;
+    height: 540px;
+}
+.footer_section .part1,
+.footer_section .part2{
+    width: 50%;
+    float: left;
+    padding-left: 55px;
+    padding-top: 125px;
+}
+.footer_section .part1 h1{
+    font-family: Oswald;
+    color: white;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.footer_section .part1 p{
+    font-family: Montserrat;
+    font-size: 20px;
+    color: white;
+    width: 70%;
+    padding-top: 40px;
+}
+.social_area ul{
+    list-style: none;
+    float: left;
+    padding-left: 0;
+}
+.social_area ul li{
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 30px;
+}
+.part2 .list_item{
+    width: 33%;
+    float: left;
+    color: white;
+}
+.footer_section .part2 .list_item h1{
+    text-transform: uppercase;
+    font-family: Oswald;
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+.footer_section .part2 .list_item ul{
+    list-style: none;
+    padding-left: 0;
+}
+.footer_section .part2 .list_item ul li{
+    font-size: 17px;
+    font-family: Montserrat;
+    padding-top: 10px;
+}
+/* Footer Section End */
+
